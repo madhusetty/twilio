@@ -12,8 +12,8 @@ $aryResponse = array();
     require_once ("inc/Services/Twilio.php");
  
     // set our AccountSid and AuthToken - from www.twilio.com/user/account
-    $AccountSid = "ACb975b7c314631a7092e26c8c4e75b9c1";
-    $AuthToken = "5655cffc023d4e02c0814b1688ff0e36";
+    $AccountSid = "ACd0c444af7c2f307ddd9fb6b020d8a8e7";
+    $AuthToken = "ac660ca0e38586772f8a6753dd43fe4e";
  
     // ini a new Twilio Rest Client
     $objConnection = new Services_Twilio($AccountSid, $AuthToken);
